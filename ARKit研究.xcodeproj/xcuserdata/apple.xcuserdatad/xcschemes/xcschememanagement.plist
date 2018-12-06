@@ -6,8 +6,63 @@
 	<dict>
 		<key>ARKit研究.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1828F01521AD4B7100768DA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1828F02D21AD4B7400768DA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1828F03821AD4B7400768DA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1856C38521B7CB680085E4BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1856C3A821B7CBAB0085E4BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1856C3B321B7CBAC0085E4BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1856C3CB21B7CCBC0085E4BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1856C3D621B7CCBC0085E4BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1856C3EE21B7CD2A0085E4BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1856C3F921B7CD2A0085E4BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

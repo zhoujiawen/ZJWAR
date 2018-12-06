@@ -15,6 +15,9 @@
 		1828F02921AD4B7300768DA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F02821AD4B7300768DA8 /* main.m */; };
 		1828F03321AD4B7400768DA8 /* ARKit__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F03221AD4B7400768DA8 /* ARKit__Tests.m */; };
 		1828F03E21AD4B7400768DA8 /* ARKit__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F03D21AD4B7400768DA8 /* ARKit__UITests.m */; };
+		1828F04C21AD4BA700768DA8 /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1828F04B21AD4BA700768DA8 /* Assets.scnassets */; };
+		1828F04F21AD4BCA00768DA8 /* MultipeerConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F04E21AD4BCA00768DA8 /* MultipeerConnectivity.m */; };
+		185A304C21B8F90B003279C8 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A304B21B8F90B003279C8 /* Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1856C37021B7CADD0085E4BD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1828F01621AD4B7100768DA8 /* ARKit研究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit研究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1828F01921AD4B7100768DA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,13 @@
 		1828F03921AD4B7400768DA8 /* ARKit研究UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit研究UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1828F03D21AD4B7400768DA8 /* ARKit__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARKit__UITests.m; sourceTree = "<group>"; };
 		1828F03F21AD4B7400768DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1828F04B21AD4BA700768DA8 /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Assets.scnassets; sourceTree = "<group>"; };
+		1828F04D21AD4BCA00768DA8 /* MultipeerConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipeerConnectivity.h; sourceTree = "<group>"; };
+		1828F04E21AD4BCA00768DA8 /* MultipeerConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipeerConnectivity.m; sourceTree = "<group>"; };
+		1856C36121B7CADD0085E4BD /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		1856C36321B7CADD0085E4BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		185A304A21B8F90B003279C8 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		185A304B21B8F90B003279C8 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +107,7 @@
 				1828F01821AD4B7100768DA8 /* ARKit研究 */,
 				1828F03121AD4B7400768DA8 /* ARKit研究Tests */,
 				1828F03C21AD4B7400768DA8 /* ARKit研究UITests */,
+				1856C36021B7CADD0085E4BD /* Frameworks */,
 				1828F01721AD4B7100768DA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,15 +125,20 @@
 		1828F01821AD4B7100768DA8 /* ARKit研究 */ = {
 			isa = PBXGroup;
 			children = (
+				1828F04B21AD4BA700768DA8 /* Assets.scnassets */,
 				1828F01921AD4B7100768DA8 /* AppDelegate.h */,
 				1828F01A21AD4B7100768DA8 /* AppDelegate.m */,
 				1828F01C21AD4B7100768DA8 /* ViewController.h */,
 				1828F01D21AD4B7100768DA8 /* ViewController.m */,
+				1828F04D21AD4BCA00768DA8 /* MultipeerConnectivity.h */,
+				1828F04E21AD4BCA00768DA8 /* MultipeerConnectivity.m */,
 				1828F01F21AD4B7100768DA8 /* Main.storyboard */,
 				1828F02221AD4B7300768DA8 /* Assets.xcassets */,
 				1828F02421AD4B7300768DA8 /* LaunchScreen.storyboard */,
 				1828F02721AD4B7300768DA8 /* Info.plist */,
 				1828F02821AD4B7300768DA8 /* main.m */,
+				185A304A21B8F90B003279C8 /* Common.h */,
+				185A304B21B8F90B003279C8 /* Common.m */,
 			);
 			path = "ARKit研究";
 			sourceTree = "<group>";
@@ -132,6 +161,15 @@
 			path = "ARKit研究UITests";
 			sourceTree = "<group>";
 		};
+		1856C36021B7CADD0085E4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1856C36121B7CADD0085E4BD /* ReplayKit.framework */,
+				1856C36321B7CADD0085E4BD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +180,7 @@
 				1828F01221AD4B7100768DA8 /* Sources */,
 				1828F01321AD4B7100768DA8 /* Frameworks */,
 				1828F01421AD4B7100768DA8 /* Resources */,
+				1856C37021B7CADD0085E4BD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -235,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1828F04C21AD4BA700768DA8 /* Assets.scnassets in Resources */,
 				1828F02621AD4B7300768DA8 /* LaunchScreen.storyboard in Resources */,
 				1828F02321AD4B7300768DA8 /* Assets.xcassets in Resources */,
 				1828F02121AD4B7100768DA8 /* Main.storyboard in Resources */,
@@ -262,7 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1828F04F21AD4BCA00768DA8 /* MultipeerConnectivity.m in Sources */,
 				1828F01E21AD4B7100768DA8 /* ViewController.m in Sources */,
+				185A304C21B8F90B003279C8 /* Common.m in Sources */,
 				1828F02921AD4B7300768DA8 /* main.m in Sources */,
 				1828F01B21AD4B7100768DA8 /* AppDelegate.m in Sources */,
 			);
@@ -438,11 +480,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DHNZZZT49;
 				INFOPLIST_FILE = "ARKit研究/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "zhoujiawen.ARKit--";
+				PRODUCT_BUNDLE_IDENTIFIER = zhoujiawen.ARKit.Replay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,11 +498,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DHNZZZT49;
 				INFOPLIST_FILE = "ARKit研究/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "zhoujiawen.ARKit--";
+				PRODUCT_BUNDLE_IDENTIFIER = zhoujiawen.ARKit.Replay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

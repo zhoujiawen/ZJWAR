@@ -7,6 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+//3D游戏框架
+#import <SceneKit/SceneKit.h>
+#import <ARKit/ARKit.h>
+#import <ReplayKit/ReplayKit.h>
+
+
+#import "MultipeerConnectivity.h"
+#import "Common.h"
+
 
 @interface ViewController : UIViewController
 
